@@ -56,6 +56,7 @@
 ## Experience
 
 * Layout using HTML/CSS skills - [GitHub Link](https://vadim-okhrimenko.github.io/goit-markup-hw-08/)
+* Creating a resume with markdown - [GitHub Link](https://github.com/Vadim-Okhrimenko/rsschool-cv)
 
 ## Education
 
