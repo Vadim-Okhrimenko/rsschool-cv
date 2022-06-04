@@ -56,16 +56,15 @@
 ## Experience
 
 * Layout using HTML/CSS skills - [GitHub Link](https://vadim-okhrimenko.github.io/goit-markup-hw-08/)
-* Creating a resume with markdown - [GitHub Link](https://github.com/Vadim-Okhrimenko/rsschool-cv)
-
+* Creating a resume with markdown - [GitHub Link](https://vadim-okhrimenko.github.io/rsschool-cv/cv)
 ## Education
 
 * ***University*** - Donetsk National Technical University (DonNTU), *Faculty of Ecology and Chemical Technologies*
 * ***Courses:***
 
-   * **GoIT** - HTML/CSS block
-   * **GoIT** - JS (incomplete education)
-   * **RS School** - Start of training (now)
+* **GoIT** - HTML/CSS block
+* **GoIT** - JS (incomplete education)
+* **RS School** - Start of training (now)
 
 ## English
 
