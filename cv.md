@@ -8,7 +8,7 @@
 * **Phone:** +380-63-756-84-91
 * **Telegram:** @cacao_me
 * **GitHub:** [@Vadim-Okhrimenko](https://github.com/Vadim-Okhrimenko)
-* **Discord in RS School:** Kakao (@Vadim-Okhrimenko)
+* **Discord in RS School:** Kakao(@Vadim-Okhrimenko)
 
 ## About Me
 
@@ -67,4 +67,4 @@
 
 ## English
 
-**А1**(*I am in the process of learning*)
+**А1** (*I am in the process of learning*)
