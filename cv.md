@@ -62,9 +62,10 @@
 
 * ***University*** - Donetsk National Technical University (DonNTU), *Faculty of Ecology and Chemical Technologies*
 * ***Courses:***
-1. **GoIT** - HTML/CSS block
-2. **GoIT** - JS (incomplete education)
-3. **RS School** - Start of training (now)
+
+   * **GoIT** - HTML/CSS block
+   * **GoIT** - JS (incomplete education)
+   * **RS School** - Start of training (now)
 
 ## English
 
