@@ -1,1 +1,3 @@
-# rsschool-cv [link](https://vadim-okhrimenko.github.io/rsschool-cv/cv)
+# rsschool-cv-html 
+
+https://Vadim-Okhrimenko.github.io/rsschool-cv/
