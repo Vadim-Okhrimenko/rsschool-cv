@@ -6,13 +6,152 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <link rel="icon" href="./assets/ico/icon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <title>cv</title>
 </head>
 
 <body>
-    <main>
-        <h1 class="hero">HELLO WORLD</h1>
+    <header class="header">
+        <nav>
+            <ul class="nav-list list">
+                <li class="nav-list-item"><a href="#contacts" class="nav-list-link">Contacts</a></li>
+                <li class="nav-list-item"><a href="#aboutMe" class="nav-list-link">About Me</a></li>
+                <li class="nav-list-item"><a href="#skills" class="nav-list-link">Skills</a></li>
+                <li class="nav-list-item"><a href="#codeExample" class="nav-list-link">Code Example</a></li>
+                <li class="nav-list-item"><a href="#experience" class="nav-list-link">Experience</a></li>
+                <li class="nav-list-item"><a href="#education" class="nav-list-link">Education</a></li>
+                <li class="nav-list-item"><a href="#english" class="nav-list-link">English</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main list">
+        <section class="section-hero">
+            <img class="photo" src="./assets/img/myPhoto.jpg" alt="my photo">
+            <div class="hero-name">
+                <h1 class="hero-title">Vadym Okhrymenko</h1>
+                <p class="hero-represent"><i>Hello! This is my short summary. Hopefully, thanks to him, we get to know
+                        each
+                        other better. See you ;)</i></p>
+            </div>
+
+        </section>
+
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list list">
+                <li class="section-item">
+                    <span class="item">Location: </span>
+                    <a href="https://www.google.com.ua/maps/place/%D0%9A%D0%B8%D0%B5%D0%B2,+02000/@50.4021367,30.2525001,10z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4501!4d30.5234?hl=ru"
+                        class="link" target="_blank">Kyiv, Ukraine</a>
+                </li>
+                <li class="section-item">
+                    <span class="item">Email: </span>
+                    <a href="mailto:vadimliongroup@gmail.com" class="link" target="_blank">vadimliongroup@gmail.com</a>
+                </li>
+                <li class="section-item">
+                    <span class="item">Phone: </span>
+                    <a href="tel:+380637568491" class="link" target="_blank">+38-063-756-84-91</a>
+                </li>
+                <li class="section-item">
+                    <span class="item">Telegram: </span>
+                    <a href="https://telegram.me/cacao_me" class="link" target="_blank">@cacao_me</a>
+                </li>
+                <li class="section-item">
+                    <span class="item">GitHub: </span>
+                    <a href="https://github.com/Vadim-Okhrimenko" class="link" target="_blank">@vadim-okhrimenko</a>
+                </li>
+                <li class="section-item">
+                    <span class="item">Discord in RS School:</span>
+                    <a href="https://discord.com/channels/@kakao1991" class="link" target="_blank">kakao
+                        (@vadim-okhrimenko)</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" id="aboutMe">
+            <h2 class="section-title">About Me</h2>
+            <ul class="section-list list">
+                <li> <span class="item">My goal</span> - My goal is to become a quality web developer</li>
+                <li> <span class="item">My priority</span> - The main priority is the benefit to others</li>
+                <li> <span class="item">My strengths</span> - Perseverance, diligence, soft skills, the ability to
+                    Google
+                </li>
+                <li> <span class="item">My work experience</span> - I have no experience in IT, but I'm learning and
+                    aspire to get into the world of development</li>
+            </ul>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list list">
+                <li><span>Git/GitHub</span> (basic)</li>
+                <li><span>Markdown</span> (basic)</li>
+                <li><span>HTML/CSS</span> (basic)</li>
+                <li><span>JS</span> (basic)</li>
+            </ul>
+        </section>
+
+        <section class="section" id="codeExample">
+            <h2 class="section-title">Code Example</h2>
+            <pre class="pre-code">
+                    <code class="js-code">
+    <i>const total = 100;
+    const ordered = 50;
+    
+    if (ordered > total) {
+    console.log(`На складе недостаточно товаров!`);
+    } else {
+    console.log(`Заказ оформлен, с вами свяжется менеджер`);
+    }</i> 
+                    </code>
+                </pre>
+        </section>
+
+        <section class="section" id="experience">
+            <h2 class="section-title">Experience</h2>
+            <ul class="section-list list">
+                <li><span>Layout using HTML/CSS skills - </span>
+                    <a href="https://vadim-okhrimenko.github.io/goit-markup-hw-08/" class="link">GitHub Link</a>
+                </li>
+                <li><span>Creating a resume with markdown - </span>
+                    <a href="https://vadim-okhrimenko.github.io/rsschool-cv/cv" class="link">GitHub Link</a>
+                </li>
+            </ul>
+        </section>
+
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+            <ul class="section-list list">
+                <li>University - Donetsk National Technical University (DonNTU), Faculty of Ecology and
+                    Chemical Technologies</li>
+                <li>Courses:
+                    <ul class="list">
+                        <li><span>GoIT</span> - HTML/CSS</li>
+                        <li><span>GoIT</span> - JS (incomplete education)</li>
+                        <li><span>RS School</span> - Start of training FE/JS (now)</li>
+                    </ul>
+                </li>
+
+            </ul>
+        </section>
+
+        <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            <p class="english-paragraph"> <b>А1</b> (I am in the process of learning)</p>
+        </section>
+
+
     </main>
+    <footer class="footer">
+        <section class="section-footer"></section>
+        <p class="year">© 2022</p>
+        <a href="https://github.com/Vadim-Okhrimenko" class="footer-link">Vadym Okhrymenko</a>
+        <a href="https://rs.school/js/" class="rss">RS School</a>
+    </footer>
 </body>
 
 </html>
